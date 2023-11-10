@@ -1,0 +1,63 @@
+body {
+	background-color: #1e1e1e;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+.gui {
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+    
+}
+.gui img{
+    width: 80px;
+    height: 80px;
+}
+h1 {
+	margin-top: 0;
+	text-align: center;
+	color: #1e1e1e;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	color: #1e1e1e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+    margin-left: -10px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	color: #1e1e1e;
+}
+
+input[type="submit"] {
+	background-color: rgb(12, 12, 69);
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #000000;
+}
+
+.botao button{
+	background-color: orangered;
+}
+
+
